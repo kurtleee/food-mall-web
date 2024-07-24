@@ -48,15 +48,15 @@
     </el-card>
     <img :src="login_center_bg" class="login-center-layout">
     <el-dialog
-      title="公众号二维码"
+      title="联系邓强"
       :visible.sync="dialogVisible"
       :show-close="false"
       :center="true"
       width="30%">
       <div style="text-align: center">
-        <span class="font-title-large"><span class="color-main font-extra-large">关注公众号</span>回复<span class="color-main font-extra-large">体验</span>获取体验账号</span>
+        <span class="font-title-large"><span class="color-main font-extra-large">关注公众号</span>回复<span class="color-main font-extra-large">我要邓强</span>获取体验账号</span>
         <br>
-        <img src="http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/banner/qrcode_for_macrozheng_258.jpg" width="160" height="160" style="margin-top: 10px">
+        <img src="https://s2.loli.net/2024/07/24/pNP1gin5Ey2tVQ6.jpg" width="160" height="160" style="margin-top: 10px">
       </div>
       <span slot="footer" class="dialog-footer">
     <el-button type="primary" @click="dialogConfirm">确定</el-button>
